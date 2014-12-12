@@ -1,0 +1,10 @@
+D:\wamp\www\HTML5Minifer\bin\Debug\HTML5Minifer.exe.config
+D:\wamp\www\HTML5Minifer\bin\Debug\HTML5Minifer.exe
+D:\wamp\www\HTML5Minifer\bin\Debug\HTML5Minifer.pdb
+D:\wamp\www\HTML5Minifer\bin\Debug\AjaxMin.dll
+D:\wamp\www\HTML5Minifer\obj\Debug\HTML5Minifer.csprojResolveAssemblyReference.cache
+D:\wamp\www\HTML5Minifer\obj\Debug\HTML5Minifer.Properties.Resources.resources
+D:\wamp\www\HTML5Minifer\obj\Debug\HTML5Minifer.csproj.GenerateResource.Cache
+D:\wamp\www\HTML5Minifer\obj\Debug\HTML5Minifer.exe
+D:\wamp\www\HTML5Minifer\obj\Debug\HTML5Minifer.pdb
+D:\wamp\www\HTML5Minifer\obj\Debug\HTML5Minifer.Form1.resources
