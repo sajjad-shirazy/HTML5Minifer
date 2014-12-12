@@ -33,11 +33,11 @@
             this.txt_path = new System.Windows.Forms.TextBox();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rdo_dot_min = new System.Windows.Forms.RadioButton();
             this.btn_minify = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.txt_status = new System.Windows.Forms.ToolStripStatusLabel();
-            this.rdo_dot_min = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -75,7 +75,6 @@
             this.txt_path.Name = "txt_path";
             this.txt_path.Size = new System.Drawing.Size(346, 27);
             this.txt_path.TabIndex = 0;
-            this.txt_path.Text = "D:\\wamp\\www\\bizsearch";
             // 
             // groupBox2
             // 
@@ -90,6 +89,28 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = " Output";
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Checked = true;
+            this.radioButton2.Location = new System.Drawing.Point(18, 66);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(271, 23);
+            this.radioButton2.TabIndex = 3;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Output on \'/_minified/\' sub directory";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // rdo_dot_min
+            // 
+            this.rdo_dot_min.AutoSize = true;
+            this.rdo_dot_min.Location = new System.Drawing.Point(18, 37);
+            this.rdo_dot_min.Name = "rdo_dot_min";
+            this.rdo_dot_min.Size = new System.Drawing.Size(233, 23);
+            this.rdo_dot_min.TabIndex = 2;
+            this.rdo_dot_min.Text = "Output on same place + \".min\"";
+            this.rdo_dot_min.UseVisualStyleBackColor = true;
             // 
             // btn_minify
             // 
@@ -117,28 +138,6 @@
             this.txt_status.Name = "txt_status";
             this.txt_status.Size = new System.Drawing.Size(12, 17);
             this.txt_status.Text = "*";
-            // 
-            // rdo_dot_min
-            // 
-            this.rdo_dot_min.AutoSize = true;
-            this.rdo_dot_min.Location = new System.Drawing.Point(18, 37);
-            this.rdo_dot_min.Name = "rdo_dot_min";
-            this.rdo_dot_min.Size = new System.Drawing.Size(233, 23);
-            this.rdo_dot_min.TabIndex = 2;
-            this.rdo_dot_min.Text = "Output on same place + \".min\"";
-            this.rdo_dot_min.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Checked = true;
-            this.radioButton2.Location = new System.Drawing.Point(18, 66);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(271, 23);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Output on \'/_minified/\' sub directory";
-            this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
